@@ -1,0 +1,51 @@
+{
+    "resources": [
+        {
+            "name": "controller/Home.controller.js"
+        },
+        {
+            "name": "css/UltaLogo12.png"
+        },
+        {
+            "name": "css/ULTALogo.png"
+        },
+        {
+            "name": "css/ultafavicon.ico"
+        },
+        {
+            "name": "css/style.css"
+        },
+        {
+            "name": "view/Home.view.xml"
+        },
+        {
+            "name": "view/searchResults.fragment.xml"
+        },
+        {
+            "name": "manifest.json"
+        },
+        {
+            "name": "model/models.js"
+        },
+        {
+            "name": "index.html"
+        },
+        {
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "Component.js"
+        },
+        {
+            "name": "cp.app.descriptor.json"
+        },
+        {
+            "name": "Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "neo-app.json"
+        }
+    ]
+}

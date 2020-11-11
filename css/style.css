@@ -1,0 +1,47 @@
+/* Enter your custom styles here */
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+.CustomUiHeaderWgtHeaderText{
+	font-family: 'Kaushan Script' !important;
+	margin-left: 20px !important;
+	font-size : 28px !important;
+	color:#ef426d !important;
+}
+/*.classSearchField{*/
+/*	border-radius : 25px ;*/
+	
+/*}*/
+
+form#__field0-F{
+	border-radius : 25px ;
+}
+.CustomUiHeaderWgtHelloText{
+	color : #f47d39 !important;
+	font : 8pt Helvetica,Arial,sans-serif!important;
+	font-weight : 600 !important;
+}
+
+.classTableDataColor tr {
+	background : white !important;
+}
+
+.CustomUiHeaderWgtNameText{
+	font : 8pt Helvetica,Arial,sans-serif!important;
+	font-weight : 600 !important;
+}
+.headerLeftClass {
+    padding: 0px 0px 0px 0px !important;
+    margin-left : 50px !important;
+    margin-top : 19px !important;
+}
+.CustomUiHeaderWgtLogoutText{
+	font : 8pt Helvetica,Arial,sans-serif!important;
+	font-weight : 500 !important;
+	color : #000000 !important;
+}
+
+.CustomUiHeaderWgtToolbar{
+	background : #ffffff !important;
+	border : none !important;
+	height : 48px!important;
+	overflow: visible !important;
+}

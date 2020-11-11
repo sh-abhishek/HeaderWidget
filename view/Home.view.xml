@@ -1,0 +1,17 @@
+<mvc:View controllerName="custHeaderWidget.controller.Home" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<Page showHeader="true">
+			<customHeader>
+				<Toolbar design = "Solid" class="CustomUiHeaderWgtToolbar">
+					<Image width="120px" src="/sap/fiori/headerwidget/css/UltaLogo12.png" class="headerLeftClass"/>
+					<Title width = "510px" text="Welcome to the Ulta Beauty Supplier Portal" level = "H1" class="CustomUiHeaderWgtHeaderText"/>
+					<ToolbarSpacer/>
+					<SearchField width = "20%" search = "fnSearchButtonPress" class = "classSearchField"/>
+					<Title text="{i18n>hello}" level="H1" class="CustomUiHeaderWgtHelloText"/>
+					<Title text="{oNameModel>/FullName}" level="H1" class="CustomUiHeaderWgtNameText"/>
+					<ToolbarSeparator/>
+					<Link text="Logout" press = "onLogoutPress" subtle="true" class="CustomUiHeaderWgtLogoutText"/>
+				</Toolbar>
+			</customHeader>
+	</Page>
+</mvc:View>

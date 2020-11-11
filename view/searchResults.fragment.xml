@@ -1,0 +1,22 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<ResponsivePopover id = "idRespPopOverSearch" showArrow="true" showHeader="True" contentWidth = "250px" contentHeight = "auto" placement="Bottom">
+		<content>
+				<Table id="idProductsTable" showSeparators = "None"
+		inset="false"
+		items="{/}" class = "classTableDataColor">
+		<columns>
+			<Column hAlign = "Center">
+				<Text text = "File Name"/>
+			</Column>
+		</columns>
+		<items>
+			<ColumnListItem>
+				<cells>
+					<Link text="{filename}" textAlign = "Left" target="_blank" href="../sap/fiori/headerwidget/authservice/bridge/ulta/DirectoryList{downloadLink}"/>
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+		</content>
+	</ResponsivePopover>
+</core:FragmentDefinition>
